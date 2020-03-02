@@ -22,6 +22,7 @@ public class CaesarsCipher {
 		
 		for (int i = 0; i < character.length; i++) {
 			if(character[i]!=' ')
+				//every time of letter come it changes to new letter and store in character[i]
 			character[i]=offSetChar(character[i],offset,LETTERA,LETTERZ);
 		}
 		
